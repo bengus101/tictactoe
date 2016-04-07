@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- <button id="test-button">test</button> -->
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:500' rel='stylesheet' type='text/css'>
+	<div id="container">
+		<section id="header">
+			<div id="main-header">
+				<h1>Gus's Trivia Time</h1>
+				<h2>Cuz if you're gonna waste time, you might as well learn some s**t, right?</h2>
+			</div>
+		</section>
+		<div id="choice-table">
+			<div id="question-row">Question Cell</div>
+				<div id="answer-row-one">
+					<button id="answer-cell1">Answer Cell 1</button>
+					<button id="answer-cell2">Answer Cell 2</button>
+				</div>
+				<div id="answer-row-two">
+					<button id="answer-cell3">Answer Cell 3</button>
+					<button id="answer-cell4">Answer Cell 4</button>
+				</div>
+		</div>
+	</div>
+	<div id="modal">
+		<video loop id="Answer-video"><source src="Good-Answer.webm" type="video/webm"></video>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="game.js"></script>
+</body>
+</html>
